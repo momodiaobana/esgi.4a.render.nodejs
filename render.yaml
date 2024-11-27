@@ -3,10 +3,10 @@ services:
     name : render-static
     runtime: static
     buildCommand: yarn buildCommand
-    staticPublishPath: ./build
-    
+    plan: free
 
 databases:
   - name: users
     databaseName: users_app
+    plan: free
     
