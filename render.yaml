@@ -11,4 +11,5 @@ databases:
   - name: users
     databaseName: users_app
     plan: free
+    region: frankfurt
     
