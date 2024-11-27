@@ -2,7 +2,7 @@ services:
   - type: web
     name : node-js-static
     runtime: node
-    startCommand: npm run
+    startCommand: npm start
     buildCommand: npm install
     plan: free
     region: frankfurt
