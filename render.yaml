@@ -1,10 +1,11 @@
 services:
   - type: web
-    name : render-static
+    name : node-js-static
     runtime: node
     startCommand: npm install
     buildCommand: npm run 
     plan: free
+    region: frankfurt
 
 databases:
   - name: users
