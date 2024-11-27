@@ -6,6 +6,11 @@ services:
     buildCommand: npm install
     plan: free
     region: frankfurt
+    envVars:
+      - key: DATA_BASE_URL
+        fromDatabase: 
+          name: users
+          property: connectionString
 
 databases:
   - name: users
